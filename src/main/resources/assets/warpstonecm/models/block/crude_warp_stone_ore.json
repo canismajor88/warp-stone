@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "warpstonecm:blocks/crude_warp_stone_ore"
+  }
+}

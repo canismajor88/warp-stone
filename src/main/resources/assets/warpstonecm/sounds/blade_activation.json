@@ -1,0 +1,6 @@
+{
+  "blade_activation": {
+    "category": "item",
+    "subtitle": "warpstonecm.subtitle.blade_activation",
+    "sounds": [ "warpstonecm:blade_activation" ]
+  }

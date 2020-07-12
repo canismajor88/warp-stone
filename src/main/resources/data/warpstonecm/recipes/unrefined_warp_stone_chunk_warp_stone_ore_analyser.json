@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "warpstonecm:warp_stone_ore_analyser"
+    },
+    {
+      "item": "warpstonecm:crude_warp_stone_ore"
+    }
+  ],
+  "result":
+  {
+    "item": "warpstonecm:unrefined_warp_stone_chunk",
+    "count": 4
+  }
+
+}

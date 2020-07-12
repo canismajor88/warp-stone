@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "warpstonecm:items/weeping_blade"
+  }
+}

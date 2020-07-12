@@ -1,0 +1,10 @@
+{
+  "type":"minecraft:blasting",
+  "ingredient":
+  {
+    "item":"minecraft:cobblestone"
+  },
+  "result":"warpstonecm:unrefined_warp_stone_chunk",
+  "experience":5,
+  "cookingtime":100
+}
