@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "warpstonecm:warp_stone_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "warpstonecm:warp_stone_block",
+    "count": 1
+  }
+}

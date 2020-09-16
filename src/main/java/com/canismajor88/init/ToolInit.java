@@ -1,8 +1,9 @@
 package com.canismajor88.init;
 
 import com.canismajor88.WarpStone.WarpStone;
+import com.canismajor88.objects.items.WarpStoneChainSaw;
+import com.canismajor88.objects.items.WarpStoneDrill;
 import com.canismajor88.objects.items.WeepingBlade;
-import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.LazyValue;
@@ -13,24 +14,29 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import java.util.function.Supplier;
 
+import static com.canismajor88.util.DataTransferObject.warpStoneToolLife;
+import static net.minecraftforge.common.ToolType.*;
+
 @Mod.EventBusSubscriber(modid= WarpStone.MOD_ID,bus= Mod.EventBusSubscriber.Bus.MOD)//allows for class to have events for forge to load into game
 @ObjectHolder(WarpStone.MOD_ID)//tags class as object holder
 public class ToolInit {
     public static final Item weeping_blade=null;
-    public static final Item warp_stone_pickax=null;
-    public static final Item warp_stone_ax=null;
-    public static final Item warp_stone_shovel=null;
-    public static final Item warp_stone_hoe=null;
+    public static final Item warp_stone_drill=null;
+    public static final Item warp_stone_chainsaw=null;
     @SubscribeEvent
-    public static void registerItems(final RegistryEvent.Register<Item> event)
+    public static void registerTools(final RegistryEvent.Register<Item> event)
     {
         //1+baseDamage(0)+addedDamage(0)
         //4-1==3 attack speed
-event.getRegistry().register(new WeepingBlade(WarpStoneItemTier.WARP_STONE_ITEM_TIER,4,0
-        ,new Item.Properties().group(ItemGroup.TOOLS)).setRegistryName("weeping_blade"));
+event.getRegistry().register(new WeepingBlade(WarpStoneItemTier.WARP_STONE_ITEM_TIER,4,-1
+        ,new Item.Properties().group(WarpStone.WarpItemGroup.instance)).setRegistryName("weeping_blade"));
+        event.getRegistry().register(new WarpStoneDrill(WarpStoneItemTier.WARP_STONE_ITEM_TIER,2,-2
+                ,new Item.Properties().group(WarpStone.WarpItemGroup.instance).addToolType(PICKAXE,4).addToolType(SHOVEL,4)).setRegistryName("warp_stone_drill"));
+        event.getRegistry().register(new WarpStoneChainSaw(WarpStoneItemTier.WARP_STONE_ITEM_TIER,8,-3
+                ,new Item.Properties().group(WarpStone.WarpItemGroup.instance).maxStackSize(1)).setRegistryName("warp_stone_chainsaw"));
     }
 }    enum WarpStoneItemTier implements IItemTier {
-    WARP_STONE_ITEM_TIER(5, 2000, 13f, 0f, 15, () -> {
+    WARP_STONE_ITEM_TIER(5, warpStoneToolLife, 15f, 0f, 15, () -> {
         return Ingredient.fromItems(ItemInit.warp_stone_ingot);
     });
     private final int harvestLevel;

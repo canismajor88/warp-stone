@@ -1,0 +1,21 @@
+{
+  "blade_activation": {
+    "category":"player",
+    "subtitle":"blade_activation",
+    "sounds": [
+      {
+        "name": "warpstonecm:item/blade_activation",
+        "stream": true
+      }
+    ]
+  },"overdrive": {
+  "category":"player",
+  "subtitle":"overdrive",
+  "sounds": [
+    {
+      "name": "warpstonecm:item/overdrive",
+      "stream": true
+    }
+  ]
+}
+}

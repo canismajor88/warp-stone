@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "warpstonecm:warp_stone_chainsaw"
+    },
+    {
+      "item": "warpstonecm:warp_stone_power_cell"
+    }
+  ],
+  "result":
+  {
+    "item": "warpstonecm:warp_stone_chainsaw",
+    "count": 1
+  }
+
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "warpstonecm:blocks/molten_warped_earth_block"
+  }
+}

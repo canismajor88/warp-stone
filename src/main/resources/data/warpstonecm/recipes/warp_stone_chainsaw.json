@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xyx",
+    "zwz"
+  ],
+  "key":
+  {
+
+    "x":
+    {
+      "item": "warpstonecm:warp_stone_ingot"
+    },
+    "y":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "z":
+    {
+      "item": "minecraft:diamond"
+    },
+    "w":
+    {
+      "item":"minecraft:redstone"
+    }
+  },
+  "result":
+  {
+    "item": "warpstonecm:warp_stone_chainsaw",
+    "count": 1
+  }
+}

@@ -5,8 +5,8 @@ import net.minecraft.util.math.MathHelper;
 
 import java.util.Random;
 
-public class CrudeWarpStoneOre extends OreBlock {
-    public CrudeWarpStoneOre(Properties properties) {
+public class WarpStoneCrystal extends OreBlock {
+    public WarpStoneCrystal(Properties properties) {
         super(properties);
     }
 

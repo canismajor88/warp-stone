@@ -1,0 +1,11 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "warpstonecm:items/warp_stone_chainsaw1"
+  },
+  "overrides": [
+    {"predicate": {"warpstonecm:active": 0.0},"model": "warpstonecm:item/warp_stone_chainsaw"},
+    {"predicate": {"warpstonecm:active": 1.0},
+      "model": "warpstonecm:item/warp_stone_chainsaw2"}
+  ]
+}

@@ -1,4 +1,14 @@
 {
-  "block.warpstonecm.warp_stone_ore":"Warpstone Ore",
-  "item.warpstonecm.weeping_blade": "Weeping Blade"
+  "block.warpstonecm.warp_stone_crystal":"Warp Stone Crystal",
+  "item.warpstonecm.weeping_blade": "Weeping Blade",
+  "item.warpstonecm.warp_stone_ore_analyser": "Warp Stone Ore Analyser",
+  "item.warpstonecm.warp_stone_drill": "Warp Stone Drill",
+  "item.warpstonecm.unrefined_warp_stone_chunk": "Unrefined Warp Stone Chunk",
+  "item.warpstonecm.warp_stone_ingot": "Warp Stone Ingot",
+  "item.warpstonecm.warp_stone_power_cell": "Warp Stone Power Cell",
+  "block.warpstonecm.crude_warp_stone_ore":"Crude Warp Stone Ore",
+  "block.warpstonecm.warp_stone_block":"Warp Stone Block",
+  "item.warpstonecm.warp_stone_chainsaw": "Warp Stone Chainsaw",
+  "block.warpstonecm.warp_stone_meteor_block":"Warp Stone Meteor",
+  "itemGroup.warp_stone": "Warp Stone"
 }

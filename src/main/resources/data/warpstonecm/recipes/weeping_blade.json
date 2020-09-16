@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " x ",
+    "xzx",
+    " y "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "warpstonecm:warp_stone_ingot"
+    },
+    "y":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "z":
+    {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "result":
+  {
+    "item": "warpstonecm:weeping_blade",
+    "count": 1
+  }
+}

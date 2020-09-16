@@ -1,0 +1,11 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "warpstonecm:items/warp_stone_drill1"
+  },
+  "overrides": [
+    {"predicate": {"warpstonecm:charged": 0.0},"model": "warpstonecm:item/warp_stone_drill"},
+    {"predicate": {"warpstonecm:charged": 1.0},
+      "model": "warpstonecm:item/warp_stone_drill2"}
+  ]
+}

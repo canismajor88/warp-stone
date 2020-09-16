@@ -36,8 +36,6 @@ public class WarpStoneMeteorPieces {
         //and keep the X and Z equal to 0. And then in rotations, have the centermost piece have a rotation
         //of 0, 0, 0 and then have all other pieces' rotation be based off of the bottommost left corner of
         //that piece (the corner that is smallest in X and Z).
-        //
-        //Lots of trial and error may be needed to get this right for your structure.
         BlockPos rotationOffSet = new BlockPos(0, 0, 0).rotate(rotation);
         BlockPos blockpos = rotationOffSet.add(x, pos.getY(), z);
         pieceList.add(new WarpStoneMeteorPieces.Piece(templateManager, WarpStoneMeteor, blockpos, rotation));

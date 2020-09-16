@@ -70,25 +70,12 @@ public class UnrefinedWarpStoneChunk extends Item {
         super.inventoryTick(stack, worldIn, entityIn, itemSlot, isSelected);
     }
 
-    @Override
-    public boolean hitEntity(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        damage(4,target);
-        return super.hitEntity(stack, target, attacker);
-    }
 
-    public void damage(float damageAmount,LivingEntity target ) {
-        damageAmount = net.minecraftforge.event.ForgeEventFactory.onLivingHeal(target, damageAmount);
-        float targetHealth = target.getHealth();
-        if (targetHealth > 0) {
-            target.setHealth(targetHealth - damageAmount);
-        }
-        target.attackEntityFrom(DamageSource.MAGIC, 1.0F);
-    }
 
     @Override
     public void onCreated(ItemStack stack, World worldIn, PlayerEntity playerIn) {
         ItemStack item = new ItemStack((Item)ItemInit.warp_stone_ore_analyser);
-        playerIn.inventory.add(1,item);
+        playerIn.inventory.addItemStackToInventory(item);
         super.onCreated(stack, worldIn, playerIn);
     }
 }

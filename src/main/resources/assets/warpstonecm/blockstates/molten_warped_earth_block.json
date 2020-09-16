@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "warpstonecm:block/molten_warped_earth_block" }
+  }
+}

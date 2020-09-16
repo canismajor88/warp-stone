@@ -2,9 +2,9 @@
   "type":"minecraft:blasting",
   "ingredient":
   {
-    "item":"minecraft:cobblestone"
+    "item":"warpstonecm:warp_stone_crystal"
   },
-  "result":"warpstonecm:unrefined_warp_stone_chunk",
+  "result":"warpstonecm:warp_stone_ingot",
   "experience":5,
   "cookingtime":100
 }

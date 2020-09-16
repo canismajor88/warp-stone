@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx ",
+    "xx ",
+    "   "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "warpstonecm:unrefined_warp_stone_chunk"
+    }
+  },
+  "result":
+  {
+    "item": "warpstonecm:warp_stone_crystal",
+    "count": 1
+  }
+}

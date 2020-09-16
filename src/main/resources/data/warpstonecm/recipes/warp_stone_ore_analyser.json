@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "key":
+  {
+
+    "x":
+    {
+      "item": "minecraft:obsidian"
+    },
+    "y": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result":
+  {
+    "item": "warpstonecm:warp_stone_ore_analyser",
+    "count": 1
+  }
+}

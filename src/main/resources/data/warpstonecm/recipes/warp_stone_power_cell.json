@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xyx",
+    "xyx",
+    "xzx"
+  ],
+  "key":
+  {
+
+    "x":
+    {
+      "item": "minecraft:obsidian"
+    },
+    "y": {
+      "item": "warpstonecm:warp_stone_ingot"
+    },
+    "z": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result":
+  {
+    "item": "warpstonecm:warp_stone_power_cell",
+    "count": 1
+  }
+}
